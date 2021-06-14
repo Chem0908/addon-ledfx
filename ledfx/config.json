@@ -27,5 +27,5 @@
     "keyfile": "str",
     "ssl": "bool"
   },
-  "image":"chem0908/ledfx"
+  "image":"chem0908/addon-ledfx"
 }
