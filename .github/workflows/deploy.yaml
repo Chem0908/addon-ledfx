@@ -133,7 +133,7 @@ jobs:
 
   publish-edge:
     name: 📢 Publish to edge repository
-    if: needs.information.outputs.environment == 'edge'
+    if: needs.information.outputs.environment == 'edgefalse'
     needs:
       - information
       - deploy
