@@ -15,7 +15,7 @@ mkdir -p /root/.ledfx
 if ! bashio::fs.file_exists "/data/ledfx/config.yaml"; then
     bashio::log "Creating default config"
     {
-            echo "dev_mode: false"
+            echo "dev_mode: true"
             echo "devices: []"
             echo "host: 127.0.0.1"
             echo "max_workers: 10"
