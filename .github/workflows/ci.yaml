@@ -168,12 +168,7 @@ jobs:
       - name: 🚀 Build and push
         uses: docker/build-push-action@v2.5.0
         with:
-          push: true
-          # yamllint disable rule:line-length
-          tags: |
-            ghcr.io/${{ github.repository_owner }}/${{ needs.information.outputs.slug }}/${{ matrix.architecture }}:${{ needs.information.outputs.environment }}
-            ghcr.io/${{ github.repository_owner }}/${{ needs.information.outputs.slug }}/${{ matrix.architecture }}:${{ needs.information.outputs.version }}
-          # yamllint enable rule:line-length
+          push: false
           context: ${{ needs.information.outputs.target }}
           file: ${{ needs.information.outputs.target }}/Dockerfile
           cache-from: |
