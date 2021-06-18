@@ -1,2 +1,2 @@
 pkgconfig==1.5.1
-https://github.com/LedFx/LedFx/archive/refs/tags/v0.10.5.zip
+https://github.com/LedFx/LedFx/archive/refs/heads/dev.zip
