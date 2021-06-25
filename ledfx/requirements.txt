@@ -1,3 +1,2 @@
 pkgconfig==1.5.1
---force-reinstall git+https://github.com/LedFx/LedFx@dev
-
+https://github.com/LedFx/LedFx/archive/refs/heads/dev.zip
