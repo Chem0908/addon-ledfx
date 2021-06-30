@@ -1,9 +1,9 @@
 {
   "build_from": {
     "aarch64": "ghcr.io/hassio-addons/base-python/aarch64:7.0.2",
-    "amd64": "ghcr.io/hassio-addons/base-python/amd64:7.0.2",
-    "armhf": "ghcr.io/hassio-addons/base-python/armhf:7.0.2",
-    "armv7": "ghcr.io/hassio-addons/base-python/armv7:7.0.2",
+    "amd64": "ghcr.io/chem0908/ledfx-dev:987221067@sha256:4c762d0485a22a543b79e31fd3c68d4b4ad19e5b22b42979d00641204a44660d",
+    "armhf": "ghcr.io/chem0908/ledfx-dev:987221067@sha256:8903d0a128bfafeb544603be0254b6b1d187cf301d06fc16e2b3051a2936e6f7",
+    "armv7": "ghcr.io/chem0908/ledfx-dev:987221067@sha256:5dd5db7fec6fa664ebe9cef510cd40eb889be9464cc483a63f9dc5c611e48387",
     "i386": "ghcr.io/hassio-addons/base-python/i386:7.0.2"
   }
 }
